@@ -1,0 +1,238 @@
+
+header.head {
+  height: 1.01rem;
+  background: #06c1ae;
+  border-bottom: 1px solid #21897d;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+}
+
+.icon{
+	height: 1.01rem;width:;
+    line-height: 1.01rem;
+}
+.icon a{color:#fff;font-size:1.009rem;}
+
+.nav-header{flex:1;text-align: center;line-height: 1rem;color: #fff;font-size: .36rem;}
+
+.nav-wrap-right{display: flex;flex-direction:row;height:100%;margin-right: .04rem;}
+.nav-wrap-right a{font-size: .2rem;	display: block;height:100%;flex:1;width: .94rem;color:#fff;text-align: center;
+}
+
+.nav-wrap-right a i{display: block;font-size:0.55rem;line-height:0.7rem;}
+.nav-wrap-right a:nth-of-type(2) i{display: block;font-size:0.45rem;}
+
+/*topnav*/
+.nav{display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    background: #FFF;
+    border-bottom: 1px solid #c6c0b3;
+    text-align: center;
+    height: .84rem;
+    color: #666;
+    line-height: .84rem;
+    flex-direction:row;
+    -webkit-user-select: none;}
+
+.nav li{flex:1;border-left: 1px solid #c6c0b3;font-size:0.28rem;}
+.nav li:nth-of-type(1){border-left:none;}
+.nav li i{color:#B7B7B7;padding-left:5px;}
+
+/*公共部分*/
+.reli li{
+    height:.87rem;line-height: .87rem;border-bottom: 1px solid #ddd8cd;
+}
+.reli li.select-li{background: #f6f4f0;}
+/*美食*/
+.delecious{
+    display: flex;flex-direction: row;overflow: hidden;
+}
+#wrapper{
+    height:13.27rem;width:3.2rem;overflow: hidden;background: #f6f4f0;
+}
+#wrapper ul{
+    background: #FFF;
+}
+#wrapper1{
+    height:13.27rem;flex:1;border-left: 1px solid #ddd8cd;
+    background: #f6f4f0;
+}
+#wrapper1 li{
+    background: #f6f4f0;
+}
+
+.scroll li span:nth-of-type(1){
+    margin-left: .4rem;font-size: .28em; color: #333;
+}
+.quantity,.sub-quantity{
+    float: right;margin-right: .16rem;font-size: .22rem;font-family:'microsoft yahei';
+}
+.quantity{
+    background: #CCC;border-radius: .8rem;line-height: 0.22rem;padding: 1px .14rem;margin-top:0.35rem;
+    color: #FFF;font-weight: 400;
+}
+.sub-quantity{
+    margin-right: .16rem;color: #B4B4B4;
+}
+
+
+/*全城*/
+.city{
+    height: 11.43rem;width: 100%;overflow: hidden;
+}
+.city h2{
+    background: #FEFEFE;
+    height: .8rem;
+    line-height: .8rem;
+    border-bottom: 1px solid #c6c0b3;
+    text-align: center;
+}
+.city h2 span{
+    display:inline-block;width: 2.4rem;text-align: center;color: #333;font-size: .28em;
+    height: .6rem;line-height: .6rem;position: relative;top:-2px;
+}
+.city-h2 span:nth-of-type(1){
+    border-right: 1px solid #666;
+}
+.city h2 span.select-h2{
+    background: #666;
+    color: #fff;
+}
+.city-h2{
+    display: inline-block;
+    height: .6rem;
+    line-height: .6rem;
+    border-radius: .04rem;
+    border: 1px solid #666;
+}
+#wrapper2{
+    overflow: hidden;
+    height: 10.62rem;
+    width: 100%;
+    background: #fff;
+}
+
+#wrapper2 li span:nth-of-type(1){
+    margin-left: .4rem;color: #333;font-size: .28em;
+}
+/*排序*/
+.order li{
+    background: #fff;text-indent:.4rem;color: #333;font-size: .28em;
+}
+.order li.select-li{
+    color: #06c1ae;
+}
+/*筛选*/
+.menuselect{
+    background: #fff;
+}
+.menuselect .footer{
+    background-color: #f6f4f0;
+}
+.menuselect .btn{
+    font-size: .3rem;padding: 0 .3rem;background: 0;
+    color: #06c1ae;height: .8rem;line-height: .8rem;display: inline-block;
+    margin: 0;text-align: center;
+}
+.menuselect .fr{
+    float: right;
+}
+.menuselect .checkbox{
+    border-bottom: 1px solid #DDD8CE;
+    overflow: hidden;
+    font-weight: 400;
+    color: #333;
+    padding: .28rem .2rem;
+    font-size: .28rem;
+}
+.menuselect .checklist{
+    padding: .28rem .2rem;font-size: .28rem;
+}
+/*deal-container*/
+.shade{position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 20;}
+.deal-container{position: relative;}
+.deals-list{box-sizing:border-box;}
+.deals-list dl{background: #fff;margin-top: .2rem;border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;}
+.deals-list dl dt{border-bottom: 1px solid #DDD8CE;
+	padding:0.2rem;
+}
+.deals-list a{color:#333;font-size: .3rem;}
+.deals-list dl:nth-of-type(1){border-top:none;margin-top:0;}
+.poiname{}
+.dealtype-icon{background-color: #06c1ae;
+    color: #fff;
+    font-size: .24rem;
+    padding: .05rem .06rem;text-align: center;
+    border-radius: .06rem;
+    vertical-align: text-bottom;}
+.kv-line-r{}
+.star{color:#f90;font-size:0.55rem;margin-left:-5px;line-height:0.5rem;}
+.star i{margin-right:-23px;}
+.num{margin:-10px 0 0 0.5rem;color:#f90;}
+.advertbtn{padding: 1px 0.1rem;font-size: 0.22rem;border: 0.02rem solid #ccc;
+color: #888;border-radius: 0.05rem;}
+.address{float: right;margin-top:-20px;}
+.address a{color: #666;font-size: .24rem;}
+
+.list1 >div{    margin: 0;    padding-left: .2rem;
+    overflow: hidden;
+    font-size: inherit;
+    font-weight: 400;
+    position: relative;}
+.list1 >div>a{border-top: 1px solid #DDD8CE;display: block;display: flex;padding: .2rem .2rem;padding-left:0;}
+.list1 >div:nth-of-type(1)>a{border-top:none;}
+.imgbox{
+    width: 1.8rem;
+    height: 1.64rem;
+    text-align: center;
+    overflow: hidden;}
+.imgbox img{width:100%;}
+
+.dealcard-block-right{flex:1;box-sizing:border-box;padding-left:12px;}
+.title{    font-size: .3rem;
+    color: #333;
+    height: .8rem;
+    margin-bottom: .32rem;
+    line-height: 1.41;}
+.price span:nth-of-type(1){font-size: .38rem;color: #06c1ae;}
+.price span:nth-of-type(2){font-size: .26rem;color: #06c1ae;}
+.price b{font-size: .24rem;color: #666;}
+.sales{float: right;margin-top:-40px;margin-right:12px;}
+.sales a{    color: #666;
+    font-size: .24rem;}
+
+.morelist{text-align: center;border-top: 1px solid #DDD8CE;}
+.morelist a{color: #06c1ae;display: block;line-height: .8rem;
+    font-size: .3rem;
+    padding: 0 .2rem;}
+.morelist a i{font-size:0.8rem;display: inline;position: absolute;}
+
+.deals-list dl:last-of-type{padding: .2rem;
+    padding-top: .16rem;
+    color: #333
+    padding-bottom: .16rem;}
+.btn-weak{
+    border: .02rem solid #06c1ae;
+    padding: 0 .3rem;
+    background: 0;
+    color: #06c1ae;display: inline-block;
+    margin: 0;border-radius: .06rem;
+    text-align: center;
+    height: .6rem;    font-size: .28rem;
+    vertical-align: middle;
+    line-height: .6rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-user-select: none;}
+.btn-disabled{    background-color: #dcdcdc;
+    color: #999;
+    border: 0;}
